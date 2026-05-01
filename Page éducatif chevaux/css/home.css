@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+    --button-green: #3a5a40;
+    --nav-green: #344e41;
+    --border-green: #588157;
+    --desaturated-green: #a3b18a;
+    --cream: #ebe7dd;
+}
+
+
+/* MAIN CONTENT */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 80px;
+    height: calc(100vh - 80px - 60px);
+}
+.presentation {
+    height: 50vh;
+    min-height: 300px;
+    min-width: 40vw;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 10vh;
+
+    font-family: Poppins;
+}
+.presentation .left h1 {
+    height: 20%;
+
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 2rem;
+
+    margin-left: 20px;
+}
+
+.presentation .left p {
+    max-height: calc(80% - 20px);
+    width: 400px;
+
+    min-width: ;
+    
+
+    border-left: 2px solid var(--border-green);
+    padding-left: 10px;
+
+    color: rgb(39, 39, 39);
+    font-size: 0.95rem;
+    overflow-y: hidden;
+}
+.presentation .right img {
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 1px black;
+}
+
+
+
