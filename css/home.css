@@ -10,14 +10,6 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-:root {
-    --button-green: #3a5a40;
-    --nav-green: #344e41;
-    --border-green: #588157;
-    --desaturated-green: #a3b18a;
-    --cream: #ebe7dd;
-}
-
 
 /* MAIN CONTENT */
 
@@ -27,7 +19,6 @@ main {
     align-items: center;
 
     margin-top: 80px;
-    height: calc(100vh - 80px - 60px);
 }
 .presentation {
     height: 50vh;
@@ -55,10 +46,7 @@ main {
     max-height: calc(80% - 20px);
     width: 400px;
 
-    min-width: ;
-    
-
-    border-left: 2px solid var(--border-green);
+    border-left: 2px solid var(--border-green-clr);
     padding-left: 10px;
 
     color: rgb(39, 39, 39);
@@ -70,6 +58,3 @@ main {
     border-radius: 20px;
     box-shadow: 0 0 5px 1px black;
 }
-
-
-

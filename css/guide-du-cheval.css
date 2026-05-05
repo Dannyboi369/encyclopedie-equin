@@ -11,20 +11,6 @@ html {
     font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-:root {
-    --button-green: #3a5a40;
-    --nav-green: hsl(150, 20%, 25%);
-    --side-nav-green-text: hsl(125, 15%, 15%);
-    --side-nav-green-bg: hsl(100, 15%, 50%);
-    --border-green: hsl(119, 15%, 42%);
-    --desaturated-green: #a3b18a;
-    --less-desaturated-green: hsl(100, 13%, 52%);
-    --background-clr: hsl(36, 25%, 76%);
-    --content-bg-clr: hsl(36, 25%, 73%);
-    --cream-text: hsl(43, 26%, 89%);
-}
-
-
 .content-wrapper {
     display: flex;
     flex-direction: row;
@@ -51,29 +37,29 @@ aside {
     min-height: 2.5rem;
 
     display: block;
-    background-color: var(--side-nav-green-bg);
+    background-color: var(--side-nav-green-bg-clr);
     padding: 0.5rem 1rem;
     text-decoration: none;
-    color: var(--side-nav-green-text);
+    color: var(--side-nav-green-text-clr);
     font-size: 0.9rem;
     font-weight: 500;
-    border-bottom: 1px solid var(--side-nav-green-text);
+    border-bottom: 1px solid var(--side-nav-green-text-clr);
 
     transition: all 0.1s ease;
 }
 .nav-side a:hover{
-    color: var(--cream-text);
+    color: var(--cream-text-rlr);
 }
 .nav-side::-webkit-scrollbar {
     width: 12px;
     
 }
 .nav-side::-webkit-scrollbar-track {
-    background: var(--border-green);
+    background: var(--border-green-clr);
 }
 .nav-side::-webkit-scrollbar-thumb {
-    border: 3px solid var(--border-green);
-    background-color: var(--desaturated-green);
+    border: 3px solid var(--border-green-clr);
+    background-color: var(--scroll-bar-clr);
     border-radius: 10px;
 }
 
@@ -104,21 +90,20 @@ main .text-encylopédie-pres {
     margin-bottom: 4rem;
 }
 
-main .section-text {
+main .section {
     width: 80%;
 
     scroll-margin-top: 35vh;
 
-    background-color: var(--content-bg-clr);
+    background-color: var(--content-bg-cream-clr);
     padding: 40px;
-    
 }
-main .section-text h2{
+main .section h2{
     margin-bottom: 2rem;
 
     width: fit-content;
 
-    color: hsl(30, 30%, 10%);
+    color: var(--section-text-brown-clr);
     font-family: "IBM Plex Sans";
     font-weight: 700;
     /*text-decoration: underline;*/
@@ -129,46 +114,47 @@ main .section-text h2{
     background-position: left bottom;
     
 }
-main .section-text h3 {
+main .section h3 {
     font-family: "IBM Plex Sans";
     font-size: 1.2rem;
     font-weight: 600;
     font-style: italic;
     
-    color: hsl(30, 30%, 25%);
+    color: var(--sub-section-text-brown-clr);
 
     margin-bottom: .8rem;
 }
-main .section-text h4 {
+main .section h4 {
     font-family: "IBM Plex Sans";
     font-size: 1.05rem;
     font-weight: 500;
     font-style: italic;
     
-    color: hsl(30, 30%, 30%);
+    color: var(--mini-section-text-brown-clr);
 
     margin-bottom: 0.5rem;
 }
-main .section-text h4::after {
+main .section h4::after {
     content: " ↓"
 }
 
-main .section-text p {
-    font-size: 0.9rem;
+main .section p {
+    font-size: 0.85rem;
+    line-height: 1.5rem;
     margin-left: .9rem;
     margin-bottom: 1rem;
 }
-main .section-text .sub-section {
+main .section .sub-section .mini-section {
     margin-left: 2rem;
 }
-main .section-text .sub-section ul {
+main .section .sub-section .mini-section ul {
     list-style: none;
     
 }
-main .section-text .sub-section ul li {
+main .section .sub-section .mini-section ul li {
     margin-bottom: 2rem;
 }
-main .section-text .sub-section ul li::before{
+main .section .sub-section .mini-section ul li::before{
     content: "";
     position: absolute;
     
@@ -180,7 +166,7 @@ main .section-text .sub-section ul li::before{
 
     filter: opacity(0.8);
 }
-main .section-text .sub-section ul li p {
+main .section .sub-section .mini-section ul li p {
     margin-left: 2rem;
     font-size: 0.85rem;
     color: hsl(0, 0%, 10%);

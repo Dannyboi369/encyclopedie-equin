@@ -1,0 +1,18 @@
+:root {
+    --button-green-clr: #3a5a40;
+    --nav-green-clr: #344e41;
+    --border-green-clr: #588157;
+    --footer-cream-clr: rgb(187, 176, 157);
+    --background-cream-clr: hsl(36, 25%, 76%);
+    --content-bg-cream-clr: hsl(36, 25%, 73%);
+
+    --side-nav-green-text-clr: hsl(125, 15%, 15%);
+    --side-nav-green-bg-clr: hsl(100, 15%, 50%);
+    --scroll-bar-clr: hsl(100, 13%, 60%);
+
+    --cream-text-clr: hsl(43, 26%, 89%);
+
+    --section-text-brown-clr: hsl(30, 30%, 10%);
+    --sub-section-text-brown-clr: hsl(30, 30%, 25%);
+    --mini-section-text-brown-clr: hsl(30, 30%, 30%);
+}
