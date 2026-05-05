@@ -18,7 +18,7 @@ main {
     justify-content: center;
     align-items: center;
 
-    margin-top: 80px;
+    margin-top: calc(170px + 2rem);/*nav-top height + 2rem*/
     flex: 1;
 }
 .presentation {
@@ -72,6 +72,7 @@ main {
         flex-direction: column;
         align-items: center;
 
+        width: 80vw;
         
     }
 
@@ -95,5 +96,28 @@ main {
 
         object-fit: contain;
         
+    }
+}
+
+
+@media screen and (max-width: 625px) {
+    .presentation .left h1 {
+        margin-left: 0;
+    }
+
+    .presentation .left {
+        width: 100%;
+    }
+
+    .presentation .left p {
+        width: 100%;
+    }
+
+    .presentation .right {
+        width: 100%;
+    }
+
+    .presentation .right img {
+        width: 80%;
     }
 }
