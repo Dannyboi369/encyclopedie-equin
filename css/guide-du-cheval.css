@@ -213,6 +213,8 @@ main .section .sub-section .mini-section ul li p {
     }
     main .text-encylopédie-pres {
         font-size: .85rem;
+        margin-top: .5rem;
+        margin-bottom: 2.5rem;
     }
     
     main .section {
