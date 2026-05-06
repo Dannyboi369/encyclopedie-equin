@@ -220,6 +220,7 @@ main .section .sub-section .mini-section ul li p {
     main .section {
         width: 95%;
         padding: 20px;
+        font-size: 1rem;
     }
 
     main .section .sub-section .mini-section {
@@ -228,4 +229,15 @@ main .section .sub-section .mini-section ul li p {
     main .section .sub-section .mini-section ul {
         margin-left: -1rem;
     }
+
+    main .section .sub-section h3 {
+        font-size: 1.1em;
+    }
+    main .section .sub-section p {
+        font-size: 0.8em;
+    }
+    main .section .sub-section .mini-section ul li p {
+        font-size: 0.7em;
+    }
+    
 }
