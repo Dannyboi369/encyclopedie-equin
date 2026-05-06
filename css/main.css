@@ -18,6 +18,9 @@ body {
     min-height: 100vh;
 }
 
+header {
+    z-index: 999;
+}
 /* NAV BARS */
 .nav-top {
     height: 80px;
@@ -61,6 +64,7 @@ body {
     text-align: center;
 
     margin-right: 2rem;
+    
 }
 .nav-link {
     width: 10rem;
@@ -87,6 +91,8 @@ body {
     border-top-left-radius 0.5s ease,
     border-top-right-radius 0.5s ease,
     background-color 0.1s ease;;   
+
+    
 }
 .nav-link:hover {
     background-color: var(--button-green-clr);
