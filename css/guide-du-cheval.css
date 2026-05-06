@@ -220,7 +220,7 @@ main .section .sub-section .mini-section ul li p {
     main .section {
         width: 95%;
         padding: 20px;
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     main .section .sub-section .mini-section {
