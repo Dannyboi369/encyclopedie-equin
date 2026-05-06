@@ -241,13 +241,15 @@ main .section .sub-section .mini-section ul li p {
         font-size: 1.1em;
     }
     main .section .sub-section p {
-        font-size: 0.825em;
+        color: var(--section-p-text-brown-clr);
+        font-size: 0.85em;
     }
     main .section .sub-section .mini-section h4 {
         font-size: 1em;
     }
     main .section .sub-section .mini-section ul li p {
-        font-size: 0.765em;
+        font-size: 0.8em;
+        color: var(--section-p-text-brown-clr);
     }
     
 }
