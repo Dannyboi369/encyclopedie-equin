@@ -101,6 +101,10 @@ main {
 
 
 @media screen and (max-width: 625px) {
+    main {
+        margin-top: 2rem;
+    }
+
     .presentation .left h1 {
         margin-left: 0;
     }
