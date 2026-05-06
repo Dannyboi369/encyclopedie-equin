@@ -202,19 +202,26 @@ main .section .sub-section .mini-section ul li p {
 
 @media screen and (max-width: 625px) {
 
+    .content-wrapper {
+        margin-top: 0;
+    }
 
     aside {
         display: none;
     }
 
+    main {
+        margin-top: 1rem;
+    }
+
     main h1 {
         font-size: 2rem;
-        margin-top: 1rem;
+        margin-top: .5rem;
     }
     main .text-encylopédie-pres {
         font-size: .85rem;
         margin-top: .5rem;
-        margin-bottom: 2.5rem;
+        margin-bottom: 3rem;
     }
     
     main .section {
@@ -234,7 +241,10 @@ main .section .sub-section .mini-section ul li p {
         font-size: 1.1em;
     }
     main .section .sub-section p {
-        font-size: 0.8em;
+        font-size: 0.76em;
+    }
+    main .section .sub-section .mini-section h4 {
+        font-size: 1em;
     }
     main .section .sub-section .mini-section ul li p {
         font-size: 0.7em;

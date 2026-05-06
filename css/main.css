@@ -222,11 +222,15 @@ footer {
 
 @media screen and (max-width: 625px) {
     
-    .nav-top {
-        height: 170px;
-        
-        gap: 0;
+    header {
+        position: sticky;
+        top: -100px;
     }
+    .nav-top {
+        height: 170px; 
+        gap: 0;
+        position: relative;
+    } 
 
     .brand {
         height: 4.5rem;
