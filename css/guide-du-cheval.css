@@ -221,4 +221,11 @@ main .section .sub-section .mini-section ul li p {
         width: 95%;
         padding: 20px;
     }
+
+    main .section .sub-section .mini-section {
+        margin-left: 1rem;
+    }
+    main .section .sub-section .mini-section ul {
+        margin-left: -1rem;
+    }
 }
